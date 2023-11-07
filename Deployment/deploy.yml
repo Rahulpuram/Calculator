@@ -5,12 +5,6 @@
     ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: Pull image
-      docker_image:
-        name: rahulpuram123/calculator:latest
-        source: pull
-    - name: Start docker service
-      service:
-        name: docker
-        state: started
+      shell: docker pull rahulpuram123/calculator:latest
     - name: Running container
-      shell: docker create -it --name calculator rahulpuram123/calculator
+      shell: docker run -it -d --name calculator rahulpuram123/calculator
