@@ -17,6 +17,15 @@ public class CalculatorTest {
         Assert.assertEquals(expectedResult, result);
     }
 
+    @Test
+    public void test_add_2() {
+        int a = 20;
+        int aa = 20;
+        int expectedResult = 40;
+        int result = calculator.add(a,aa);
+        Assert.assertEquals(expectedResult, result);
+    }
+
 
     @Test
     public void test_subt() {
