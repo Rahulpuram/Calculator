@@ -87,7 +87,7 @@ public class Main {
     public static int mul(int num,int exp){
         int c = num*exp;
         System.out.println("\nThe Result is "+c+"\n");
-        logger.info("Executing multiplication operation for "+num+" and "+exp+". Result: "+c+"\n");
+        logger.info("Executing multiplication operation for the numbers "+num+" and "+exp+". Result: "+c+"\n");
         return c;
     }
     public static int per(int num, int exp){
