@@ -1,8 +1,0 @@
-2023-11-07 22:57:30.365 [main] INFO  org.example.Main - Executing subtraction operation for 20 and 10. Result: 10
-
-2023-11-07 22:57:30.368 [main] INFO  org.example.Main - Executing addition operation for 10 and 20. Result: 30
-
-2023-11-07 22:57:30.369 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 10. Result: 100
-
-2023-11-07 22:57:30.371 [main] INFO  org.example.Main - Executing percentile operation for 10 and 7. Result: 3
-
